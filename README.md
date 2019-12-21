@@ -17,6 +17,9 @@ git checkout -b Test
 git checkout Test
 // 切换到Test分支
 ```
+> **注意：**
+>> 如果不在master分支需要在当前分支下进行commit操作，不然删除文件master的文件也会被删除
+
 3. 分支的推送
 ```
 git push --set-upstream origin Test
